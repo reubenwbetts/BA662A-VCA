@@ -1,2 +1,2 @@
 # Juno-6-Service
-Service Log for a Junu 6
+Service Log for a Juno 6
