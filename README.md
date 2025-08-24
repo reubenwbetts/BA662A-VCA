@@ -3,6 +3,7 @@
 SPICE Model for the BA662A VCA IC
 
 (THIS MODEL DOES NOT USE THE CORRECT TRANSISTORS, HOWEVER THE GAIN RESPONSE IS THE SAME AS A REAL BA266A).
+IN THE VCA MODEL, NE5532's were used for opamps, rather than the TA75558S's used in the JUNO, but this has no real impact on the simulation's accuracy/
 
 Whilst re-capping a Juno-6 it occured to me that the THD of the signal path could be lowered further by switching a set of electrolytic caps in the signal path with film capacitors. However, the electrolytics were between 10-50uF, and so film caps of this capacitance would be too large (physically) to fit on the board. As the caps each formed a HPF, lower capacitance capacitors would raise the cutoff frequency, unless the impedance of the 'R' seciton of each CR filter was also raised. 
 
