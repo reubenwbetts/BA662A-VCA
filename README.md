@@ -1,2 +1,3 @@
-# Juno-6-Service
-Service Log for a Juno 6
+# BA662A VCA 
+
+SPICE Model for the BA662A VCA IC
